@@ -1,0 +1,46 @@
+TRAZA DEL AGENTE ROBÓTICO DE BODEGA
+============================================================
+Bodega 25x35 | semilla 2026
+
+1. PERCEPCIÓN
+   Lotes en inventario: 374
+   Posición inicial (base de carga): (24, 0)
+   Lote FEFO seleccionado: L016020 en estantería (16, 20), vence en 3 días
+   Celda objetivo frente a la estantería: (15, 20)
+
+2. PLANIFICACIÓN (A*)
+   Nodos expandidos: 93 | costo: 31 | pasos: 29
+
+3. ACCIÓN (actuadores)
+   Paso   1: Arriba    -> (23, 0)  costo 1 (pasillo libre)
+   Paso   2: Arriba    -> (22, 0)  costo 1 (pasillo libre)
+   Paso   3: Arriba    -> (21, 0)  costo 1 (pasillo libre)
+   Paso   4: Derecha   -> (21, 1)  costo 1 (pasillo libre)
+   Paso   5: Derecha   -> (21, 2)  costo 1 (pasillo libre)
+   Paso   6: Derecha   -> (21, 3)  costo 1 (pasillo libre)
+   Paso   7: Derecha   -> (21, 4)  costo 1 (pasillo libre)
+   Paso   8: Derecha   -> (21, 5)  costo 1 (pasillo libre)
+   Paso   9: Derecha   -> (21, 6)  costo 1 (pasillo libre)
+   Paso  10: Derecha   -> (21, 7)  costo 1 (pasillo libre)
+   Paso  11: Derecha   -> (21, 8)  costo 1 (pasillo libre)
+   Paso  12: Derecha   -> (21, 9)  costo 1 (pasillo libre)
+   Paso  13: Derecha   -> (21, 10)  costo 1 (pasillo libre)
+   Paso  14: Derecha   -> (21, 11)  costo 1 (pasillo libre)
+   Paso  15: Derecha   -> (21, 12)  costo 1 (pasillo libre)
+   Paso  16: Arriba    -> (20, 12)  costo 1 (pasillo libre)
+   Paso  17: Arriba    -> (19, 12)  costo 1 (pasillo libre)
+   Paso  18: Arriba    -> (18, 12)  costo 1 (pasillo libre)
+   Paso  19: Arriba    -> (17, 12)  costo 1 (pasillo libre)
+   Paso  20: Arriba    -> (16, 12)  costo 1 (pasillo libre)
+   Paso  21: Arriba    -> (15, 12)  costo 1 (pasillo libre)
+   Paso  22: Derecha   -> (15, 13)  costo 1 (pasillo libre)
+   Paso  23: Derecha   -> (15, 14)  costo 1 (pasillo libre)
+   Paso  24: Derecha   -> (15, 15)  costo 1 (pasillo libre)
+   Paso  25: Derecha   -> (15, 16)  costo 1 (pasillo libre)
+   Paso  26: Derecha   -> (15, 17)  costo 1 (pasillo libre)
+   Paso  27: Derecha   -> (15, 18)  costo 1 (pasillo libre)
+   Paso  28: Derecha   -> (15, 19)  costo 1 (pasillo libre)
+   Paso  29: Derecha   -> (15, 20)  costo 3 (congestión)
+
+   Brazo de recolección: retira el lote L016020.
+   Objetivo alcanzado. El agente regresa a la base para el despacho FEFO.

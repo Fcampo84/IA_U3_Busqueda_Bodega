@@ -1,0 +1,11 @@
+# Entorno virtual local (no se sube a GitHub)
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Sistema operativo
+Thumbs.db
+.DS_Store

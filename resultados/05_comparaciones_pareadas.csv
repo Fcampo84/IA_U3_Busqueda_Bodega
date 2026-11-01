@@ -1,0 +1,16 @@
+﻿bodega;comparacion;problemas;reduccion_nodos_pct_prom;reduccion_ic95_inf;reduccion_ic95_sup;problemas_con_menos_nodos_pct;problemas_con_mayor_costo_pct
+XS;A* frente a UCS;400;46.3;45.26;47.34;100.0;0.0
+XS;A* frente a BFS;400;52.52;51.42;53.61;100.0;0.0
+XS;Greedy frente a A*;400;45.5;43.89;47.11;95.8;44.5
+S;A* frente a UCS;400;52.66;51.62;53.69;100.0;0.0
+S;A* frente a BFS;400;55.89;54.86;56.92;100.0;0.0
+S;Greedy frente a A*;400;51.38;49.87;52.9;99.0;64.8
+M;A* frente a UCS;400;56.48;55.3;57.66;100.0;0.0
+M;A* frente a BFS;400;57.59;56.36;58.82;100.0;0.0
+M;Greedy frente a A*;400;60.91;59.22;62.6;98.5;75.8
+L;A* frente a UCS;400;58.95;57.78;60.11;100.0;0.0
+L;A* frente a BFS;400;59.95;58.77;61.12;100.0;0.0
+L;Greedy frente a A*;400;69.58;68.14;71.02;99.0;91.5
+XL;A* frente a UCS;400;61.35;60.17;62.54;100.0;0.0
+XL;A* frente a BFS;400;62.09;60.89;63.29;100.0;0.0
+XL;Greedy frente a A*;400;76.17;74.98;77.36;99.5;94.2
